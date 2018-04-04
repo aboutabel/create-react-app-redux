@@ -1,3 +1,13 @@
+### Steps for Redux integration
+
+1. `npm i redux, react-redux, redux-thunk`
+  - Optional: `redux-actions`
+2. configure Store
+3. set up Action Creators and Reducers
+4. wrap App with Provider
+5. connect smart container
+  - mapStateToProps, mapDispatchToProps
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
